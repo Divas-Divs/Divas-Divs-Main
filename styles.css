@@ -10,25 +10,28 @@ body {
     background-color: white;
     color: black;
     margin: 35px;
+    margin-top: 25px;
 }
 
 header {
     display: flex;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 20px;
     padding-bottom: 25px;
     border-bottom: 5px solid #95BFCA;
 }
 
 #logo {
-    width: 120px;
+    display: block;
+    width: 110px;
     height: auto;
     margin-right: 15px;
     background-color: #95BFCA;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     letter-spacing: -0.06em;
     color: #194652;
 }
