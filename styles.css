@@ -79,34 +79,42 @@ p {
 }
 
 #meet-divas > ul > li > ul > li:nth-child(1) {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
+    text-align: center;
     margin-bottom: 8px;
     color: #194652;
-    order: 2;
-}
-
-#meet-divas > ul > li > ul > li:nth-child(2) {
-    width: 100%;
-    aspect-ratio: 3/4;
-    background-color: #D9D9D9;
-    margin-bottom: 15px;
     order: 1;
 }
 
+#meet-divas > ul > li > ul > li:nth-child(2) {
+    width: 65%;
+    aspect-ratio: 3/4;
+    background-color: #D9D9D9;
+    margin-bottom: 15px;
+    align-self: center;
+    order: 2;
+}
+
 #meet-divas > ul > li > ul > li:nth-child(3) {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 12px;
     color: #194652;
+    text-align: center;
     order: 3;
 }
 
 #meet-divas > ul > li > ul > li:nth-child(4) {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
     color: #000;
     order: 4;
+}
+
+.divider {
+    border-left: 2px solid #95BFCA;
+    padding-left: 20px;
 }
 
 .projects-grid {
