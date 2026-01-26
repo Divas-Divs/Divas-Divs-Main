@@ -24,20 +24,20 @@ header {
 
 #logo {
     display: block;
-    width: 100px;
+    width: 90px;
     height: auto;
     margin-right: 15px;
     background-color: #95BFCA;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 75px;
     letter-spacing: -0.06em;
     color: #194652;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 15px;
     margin-top: 25px;
 }
@@ -169,6 +169,6 @@ p {
 
 .projects-grid details p {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
 }
