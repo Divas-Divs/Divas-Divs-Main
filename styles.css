@@ -24,22 +24,22 @@ header {
 
 #logo {
     display: block;
-    width: 90px;
+    width: 80px;
     height: auto;
     margin-right: 15px;
     background-color: #95BFCA;
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 65px;
     letter-spacing: -0.06em;
     color: #194652;
 }
 
 h2 {
     font-size: 40px;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
 }
 
 p {
@@ -54,7 +54,7 @@ p {
 }
 
 #meet-divas {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     border-bottom: 4px solid #95BFCA;
 }
@@ -88,7 +88,7 @@ p {
 }
 
 #meet-divas > ul > li > ul > li:nth-child(2) {
-    width: 65%;
+    width: 55%;
     aspect-ratio: 3/4;
     background-color: #D9D9D9;
     margin-bottom: 15px;
@@ -126,11 +126,11 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 .projects-grid details {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .projects-grid summary {
