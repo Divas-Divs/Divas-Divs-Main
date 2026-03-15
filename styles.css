@@ -172,3 +172,10 @@ p {
     font-size: 16px;
     line-height: 1.4;
 }
+
+.project_img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #95BFCA;
+}
